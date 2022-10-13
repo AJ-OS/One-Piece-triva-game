@@ -1,0 +1,174 @@
+@font-face {
+    font-family: onePiece;
+    src: url(/fonts/one\ piece\ font.ttf);
+}
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .2s linear;
+}
+body {
+    background-image: url(/icons/1207338.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.top-text {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 55px;
+    font-family: onePiece;
+    margin: 50px;
+}
+div.luffy-pic{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.button {
+    text-align: center;
+    font-size: 23px;
+}
+.button-luffy {
+    cursor: pointer;
+    background: black;
+    color: #fff;
+    border-radius: 35px;
+    transition: transform 0.3s ease;
+    width: 125px;
+    height: 125px;
+    font-size: 20px;
+}
+
+.button-luffy::after, .button-luffy::before {
+    content: "";
+    position: absolute;
+    background: #000;
+    border-radius: inherit;
+    width: 0%;
+    height: 0%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: transform 0.3 ease;
+}
+
+.button-luffy:hover {
+    transform: translate(-12px, -12px)
+}
+
+.button-luffy::after {
+    transform: translate(6px, 6px)
+}
+
+.button-luffy::before {
+    transform: translate(12px, 12px)
+}
+
+
+.button-zoro {
+    cursor: pointer;
+    background: black;
+    color: #fff;
+    border-radius: 35px;
+    transition: transform 0.3s ease;
+    width: 125px;
+    height: 125px;
+    font-size: 23px;
+}
+
+.button-zoro::after, .button-zoro::before {
+    content: "";
+    position: absolute;
+    background: #000;
+    border-radius: inherit;
+    width: 0%;
+    height: 0%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: transform 0.3 ease;
+}
+
+.button-zoro:hover {
+    transform: translate(-12px, -12px)
+}
+
+.button-zoro::after {
+    transform: translate(6px, 6px)
+}
+
+.button-zoro::before {
+    transform: translate(12px, 12px)
+}
+
+
+.button-lucky-roo {
+    cursor: pointer;
+    background: black;
+    color: #fff;
+    border-radius: 35px;
+    transition: transform 0.3s ease;
+    width: 125px;
+    height: 125px;
+    font-size: 21px;
+}
+
+.button-lucky-roo::after, .button-lucky-roo::before {
+    content: "";
+    position: absolute;
+    background: #000;
+    border-radius: inherit;
+    width: 0%;
+    height: 0%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: transform 0.3 ease;
+}
+
+.button-lucky-roo:hover {
+    transform: translate(-12px, -12px)
+}
+
+.button-lucky-roo::after {
+    transform: translate(6px, 6px)
+}
+
+.button-lucky-roo::before {
+    transform: translate(12px, 12px)
+}
+.button-sengoku {
+    cursor: pointer;
+    background: black;
+    color: #fff;
+    border-radius: 35px;
+    transition: transform 0.3s ease;
+    width: 125px;
+    height: 125px;
+    font-size: 23px;
+}
+
+.button-sengoku::after, .button-sengoku::before {
+    content: "";
+    position: absolute;
+    background: #000;
+    border-radius: inherit;
+    width: 0%;
+    height: 0%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: transform 0.3 ease;
+}
+.button-sengoku:hover {
+    transform: translate(-12px, -12px)
+}
+
+.button-sengoku::after {
+    transform: translate(6px, 6px)
+}
+
+.button-sengoku::before {
+    transform: translate(12px, 12px)
+}
